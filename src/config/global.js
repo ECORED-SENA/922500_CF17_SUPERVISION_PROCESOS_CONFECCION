@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Normatividad textil',
+    descripcionCurso:
+      'La normatividad textil es uno de los puntos dentro de la supervisión de confecciones, se abordará su necesidad desde la visión del control de calidad y su clasificación general, así como los tipos de ensayos y pruebas realizadas lo cual dependerá de las necesidades de una empresa en cuanto a su producto y uso final, todo ello reflejado en normas que priorizan la estandarización de métodos que responden a criterios de calidad globalmente consensuados.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/4.png'),
       },
     ],
   },
@@ -31,27 +40,53 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Calidad en telas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normatividad en los textiles',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Normatividad Colombiana NTC',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'NTC-ISO 2859',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'NTC 2567:1998 NTC1046',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'NTC 703:2001',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Sociedad Americana para Pruebas y Materiales (ASTM)',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo:
+              'Asociación Americana de Químicos Textiles y Coloristas (AATCC)',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normas aplicadas según prueba o ensayo',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +137,194 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Otros métodos',
+      referencia:
+        'ASTM Internacional (s.f.) <i>ASTM D5034 Resistencia a la rotura /elongación . Método de agarre</i>.',
+      tipo: 'PDF',
+      descarga: '/downloads/ANEXO_8_ASTM_D5034.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Otros métodos',
+      referencia:
+        'ASTM Internacional (s.f.) <i>ASTM D1424 Resistencia al desgarro ELMENDRORF</i>.',
+      tipo: 'PDF',
+      descarga: '/downloads/ANEXO_9_ASTM_D1424.pdf',
+    },
+    {
+      tema: 'Otros métodos',
+      referencia:
+        'ASTM Internacional (s.f.) <i>ASTM D 2261 resistencia al desgarre de las telas mediante el procedimiento de una pernera, lengua</i>.',
+      tipo: 'PDF',
+      descarga: '/downloads/ANEXO_10_ASTM_D2261.pdf',
+    },
+    {
+      tema: 'Otros métodos',
+      referencia: 'Lafayette (s.f.) <i>Ficha técnica Blanket fleece</i>.',
+      tipo: 'PDF',
+      descarga: '/downloads/ANEXO_11_FICHAS_TECNICAS_DE_TEXTILES.pdf',
+    },
+    {
+      tema: 'Otros métodos',
+      referencia: 'Coltejer (s.f.) <i>Manual de calidad de textiles</i>.',
+      tipo: 'PDF',
+      descarga: '/downloads/ANEXO_12_MANUAL_DE_CALIDAD_TEXTILES.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Abrasión',
+      significado:
+        'es el mecanismo o acción de quitar algo sobre una superficie o elemento. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Defecto',
+      significado:
+        'irregularidad que baja la calidad o estropea las características de un textil.',
+    },
+    {
+      termino: 'Ensayos',
+      significado:
+        'concepto que se atribuye en el sector textil para hacer referencia a las pruebas que se desarrollan en un laboratorio con pasos específicos.',
+    },
+    {
+      termino: 'Hipoclorito de sodio',
+      significado:
+        'solución acuosa cuya disolución al agua se le conoce como cloro.',
+    },
+    {
+      termino: 'Inspección',
+      significado:
+        'resultado de una serie de actividades como la medición o el ensayo de las características de un producto, además de la comparación de los resultados arrojados, para determinar si es posible lograr conformidad en cuanto a cada característica',
+    },
+    {
+      termino: 'Ítem',
+      significado:
+        'todo lo que se puede describir y se determina de manera individual.',
+    },
+    {
+      termino: 'Lote',
+      significado:
+        'conjunto de elementos que poseen características similares, agrupadas para un fin en común.',
+    },
+    {
+      termino: 'Martindale',
+      significado:
+        'concepto atribuido al proceso de un equipo de medición de laboratorio textil que permite medir el frote de un textil ante diferentes elementos. ',
+    },
+    {
+      termino: 'Muestreo',
+      significado:
+        'conjunto de elementos representativos para estudiar las características compositivas de un grupo más grande.',
+    },
+    {
+      termino: 'NAC',
+      significado:
+        'Nivel Aceptable de Calidad. Es decir, el nivel que es posible validar para definir que su calidad es pertinente.',
+    },
+    {
+      termino: 'Pilling',
+      significado:
+        'término asignado a elementos que se forman en un textil después de que pasa por procesos de frote o fricción, a estos elementos también suelen llamarles mota o bolitas.',
+    },
+    {
+      termino: 'Rotura',
+      significado:
+        'es la acción de romper algo o de romperse un elemento u objeto.',
+    },
+    {
+      termino: 'Solidez',
+      significado:
+        'término que permite determinar la cualidad de sólido o cualidad permanente de un elemento u objeto.',
+    },
+    {
+      termino: 'Solidez de color',
+      significado:
+        'concepto atribuido a la cualidad de sólido o permanencia de un color.',
+    },
+    {
+      termino: 'Sustrato',
+      significado:
+        'elemento que es base de un objeto o producto, por ejemplo el sustrato de un textil que contiene un color, el sustrato sería el elemento que le da color a un textil (tinte)',
+    },
+    {
+      termino: 'Transpiración',
+      significado:
+        'es un líquido de base transparente que es generado por glándulas en la piel del ser humano y son expulsadas sobre ella a lo que se le conoce como sudor, la transpiración hace referencia al proceso por el cual se produce.',
+    },
+    {
+      termino: 'Variaciones',
+      significado:
+        'son cambios presentados en un elemento o diferencias presentes en un elemento u objeto. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Fundibeq, S. (2021). ¿Qué es ISO? Retrieved 25 August 2021, from.',
+      link: 'https://www.fundibeq.org/informacion/infoiso/que-es-iso',
+    },
+    {
+      referencia: 'Icontec. (2019). NTC 2567:1998.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=178',
+    },
+    {
+      referencia: 'Icontec. (2021). NTC 703:2001.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=5699',
+    },
+    {
+      referencia: 'Icontec (2002) NTC-ISO 2859-1:2002.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6224',
+    },
+    {
+      referencia: 'Icontec. (2021). NTC-ISO 2859-3:2014.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6227',
+    },
+    {
+      referencia:
+        'Lockuán Lavado, F. (2012). La Industria textil y su control de calidad V. Tintorería.',
+      link: 'http://budetex.com/4.info.html',
+    },
+    {
+      referencia:
+        'Lockuán, f.  (2013). La industria textil y su control de calidad, recuperado el 14 de agosto de 2021, tomado de:',
+      link: 'http://budetex.com/4.info.html',
+    },
+    {
+      referencia:
+        'Normas de los tejidos de protección - ISO / ASTM - Marina Textil. (2021). Retrieved 26 August 2021, from',
+      link: 'https://marinatextil.com/es/norma-tejido-proteccion',
+    },
+    {
+      referencia:
+        'Ortiz, A.  (2017). Procesos textiles. Tomado el 8 de julio de 2021, recuperado de:',
+      link: 'https://abortiz.wixsite.com/textiles/procesos-textiles',
+    },
+    {
+      referencia:
+        'Programa de Textilización - Ciencias Textiles. (2021). Retrieved 30 August 2021, from.',
+      link:
+        'https://programadetextilizacion.blogspot.com/2017/05/capitulo-12a-aseguramiento-de-calidad.html',
+    },
+    {
+      referencia:
+        'Testex. (2020). Control de calidad de prendas: una guía práctica para empresas de prendas de vestir. Testex',
+      link:
+        'https://www.testextextile.com/wp-content/plugins/gtranslate/url_addon/gtranslate.php?glang=es&gurl=gu%C3%ADa-de-control-de-calidad-de-prendas/',
+    },
+    {
+      referencia:
+        'Testex. (2021). Notas de solidez del color de los textiles al lavado del método de prueba AATCC 61.',
+      link:
+        'https://www.testextextile.com/es/notas-de-solidez-del-color-de-los-textiles-al-lavado-del-m%C3%A9todo-de-prueba-aatcc-61/',
+    },
+    {
+      referencia:
+        'Zúñiga, M.  (2017).  <i>Acreditación de un laboratorio textil para la adecuada ejecución de los métodos de ensayo de control de calidad textil y confecciones</i>,',
+      link: 'https://core.ac.uk/download/pdf/323342973.pdf ',
     },
   ],
   creditos: [
@@ -151,8 +348,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta temática',
+          centro: 'Centro Regional Antioquia',
+        },
+        {
+          nombre: 'María Camila Álvarez Trujillo',
+          cargo: 'Experta temática',
+          centro: 'Centro Regional Antioquia',
+        },
+        {
+          nombre: 'Vilma Perilla Méndez',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisión metodológica y pedagógica',
+          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Distrito capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodólogo para formación virtual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -162,13 +384,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
