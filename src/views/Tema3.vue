@@ -167,7 +167,7 @@
           .titulo-sexto.color-acento-contenido.up
             h5 Figura 2.
             span Trama y urdimbre 
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/18.png', alt='')
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/18.png', alt='La imagen presenta cómo se realiza la tranma y la urdimbre.')
           figcaption Nota. Tomada de https://bit.ly/3sivFRH 
 
     p(data-aos="fade-down").mb-5 El método consiste en el conteo de los hilos y las pasadas acordes a una medida determinada, la cual podrá ser de un centímetro por pulgada. La suma total de los hilos y la suma total de pasadas tendrá la denominación de “suma de conjunto” expresado OAS por sus siglas en inglés (overa ll set). Este método de conteo es implementado por dispositivos que permiten el aumento y equipos cuentahílos, lo que permitiría a su vez desintegrar gradualmente una muestra durante su conteo. Los equipos varían de acuerdo con los tejidos que tienen dobles pasadas o dobles hilos, pero en estructura suelen ser muy similares, los equipos para esta prueba son:
