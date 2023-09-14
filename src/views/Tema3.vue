@@ -51,38 +51,40 @@
 
     .bg7.mb-5
       .row.justify-content-center.text-center.pt-3     
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/12.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Se selecciona una muestra de un textil. 
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/13.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Se pesa aplicando la fórmula de más por unidad de área. 
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/14.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 La muestra debe ser de 1 metro como mínimo.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/15.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Si la tela viene en rollo esta deberá cortarse al final del desarrollo de una tela. 
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/16.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
-                p.mb-0 El valor obtenido se da porcentualmente y el mínimo aceptado es de 3 % de masa por unidad
+                p.mb-0 El valor obtenido se da porcentualmente y el mínimo aceptado es de 3 % de masa por unidad.
 
-    p(data-aos="fade-down").mb-4 Las normas aplicadas que suelen implementarse para determinar el peso en sus dos formas, son:  
+    .row 
+      .col.up
+        p(data-aos="fade-down").mb-4 Las normas aplicadas que suelen implementarse para determinar el peso en sus dos formas, son:  
 
     .row.justify-content-center.text-center.mb-4
       .col-lg-4.my-3(data-aos="fade-left")
@@ -146,7 +148,7 @@
             h4.mb-0 A. Conteo de hilos en tejido plano      
     p(data-aos="fade-down") Una tela de tejido plano posee la característica de que está compuesta por hilos de urdimbre y trama, es decir, se necesitan dos hilos en diferentes direcciones de urdimbre y trama para la estructura de un textil con tejido plano.
 
-    p(data-aos="fade-down").mb-5 Para recordar
+    p(data-aos="fade-down").mb-5 Para recordar:
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8
         .bg5.p-4.mb-4(data-aos="flip-down")

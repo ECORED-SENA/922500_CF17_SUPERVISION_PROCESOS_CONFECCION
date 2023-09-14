@@ -55,7 +55,12 @@
 
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media (max-width: 810px)
+    background-image: url("../assets/curso/portada/6.png") !important 
+    background-position: center !important
 
+
+    
 .img-a 
   display: block
   margin: auto
@@ -76,6 +81,13 @@
   justify-content: center
   align-items: center    
 
+.j1
+  display: flex
+  justify-content: center
+  align-items: center 
+  @media (max-width: 1080px)     
+    justify-content: left
+    align-items: left 
 .fa-ul
   margin-left: 0 !important
   li
@@ -315,7 +327,7 @@ table caption
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: center   
-    @media (max-width: 810px)
+    @media (max-width: 1080px)
       background-color: #FFD6C5 
 .bg14
   position: relative
@@ -346,7 +358,7 @@ table caption
 
 .brl
   border-left: 2px solid #B8B8B8
-  @media (max-width: 810px)
+  @media (max-width: 1080px)
     border-left: 0px solid     
 
 .up

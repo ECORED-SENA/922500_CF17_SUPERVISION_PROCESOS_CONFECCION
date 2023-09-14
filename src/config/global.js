@@ -285,13 +285,9 @@ export default {
     },
     {
       referencia:
-        'Lockuán Lavado, F. (2012). La Industria textil y su control de calidad V. Tintorería.',
-      link: 'http://budetex.com/4.info.html',
-    },
-    {
-      referencia:
-        'Lockuán, f.  (2013). La industria textil y su control de calidad, recuperado el 14 de agosto de 2021, tomado de:',
-      link: 'http://budetex.com/4.info.html',
+        'Lockuán Lavado, F. (2012). La Industria textil y su control de calidad.',
+      link:
+        'https://www.academia.edu/33609006/I_La_industria_textil_y_su_control_de_calidad',
     },
     {
       referencia:
@@ -396,13 +392,25 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',

@@ -149,7 +149,7 @@
           p(data-aos="fade-down").mb-0 Dichos lineamientos se establecen gracias al Instituto Colombiano de Normas Técnicas y Certificación, conocido como ICONTEC, el cual es una entidad privada sin ánimo de lucro. Este organismo brinda soporte al productor y ofrece protección al consumidor, con el propósito de establecer una ventaja competitiva en los procesos. Por consiguiente, esta entidad desarrolla el proceso de Normalización Técnica teniendo en cuenta Comités Técnicos y la Consulta Pública.
       .col-lg-4.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/37.png', alt='')                                                                  
-    p(data-aos="fade-down") A través de ICONTEC se generan las Normas Técnicas Colombianas o NTC, las cuales abarcan una gran cantidad de sectores en los que se establecen los métodos exactos para medir la calidad de sus resultados. De esta manera, a continuación, se ampliará la información en cuanto a Normas Técnicas Colombianas (NTC) específicas del sector textil. Por ello, en este caso se han definido aquellas que inciden directamente con este programa de formación, en las que se tratará temas como el muestreo para inspección por atributos del material textil, igualmente la clasificación por defectos encontrados en los tejidos de punto y tejido plano, además de los requisitos generales en cuanto a los mencionados tejidos de punto y tejidos planos. Es así como esta información se encuentra contenida en la NTC-ISO 2859, NTC 1046, 2567 y NTC 703. 
+    p(data-aos="fade-down").mb-5 A través de ICONTEC se generan las Normas Técnicas Colombianas o NTC, las cuales abarcan una gran cantidad de sectores en los que se establecen los métodos exactos para medir la calidad de sus resultados. De esta manera, a continuación, se ampliará la información en cuanto a Normas Técnicas Colombianas (NTC) específicas del sector textil. Por ello, en este caso se han definido aquellas que inciden directamente con este programa de formación, en las que se tratará temas como el muestreo para inspección por atributos del material textil, igualmente la clasificación por defectos encontrados en los tejidos de punto y tejido plano, además de los requisitos generales en cuanto a los mencionados tejidos de punto y tejidos planos. Es así como esta información se encuentra contenida en la NTC-ISO 2859, NTC 1046, 2567 y NTC 703. 
     
     .row.justify-content-center.align-items-center        
       .col-lg-10
@@ -257,7 +257,8 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/a4SXlYhBZyY?si=Dl8pfNu2zhIVl3uB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+          figcaption Video. Tipos de inspección  
     p(data-aos="fade-down").mb-5 En la siguiente figura se ilustra de una manera clara, el proceso de cambio de inspección, siempre que se cumplan las condiciones requeridas, según se explicó anteriormente.
 
     .row.justify-content-center.align-items-center.mb-5         
@@ -265,13 +266,13 @@
         .titulo-sexto.color-acento-contenido.up
           h5 Figura 1.
           span Reglas de cambio de inspección
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.svg', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.svg', alt='La imagen presenta el proceso de cambio de inspección, donde se encuentran la inspección reducida, la inspección normal, la inspección estricta y el no continuar la inspección.')
         figcaption Nota. Tomado de ICONTEC (2019). NTC-ISO 2859-1:2002.
       .col-lg-10.d-block.d-lg-none
         .titulo-sexto.color-acento-contenido.up
           h5 Figura 1.
           span Reglas de cambio de inspección
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/48.svg', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/48.svg', alt='La imagen presenta el proceso de cambio de inspección, donde se encuentran la inspección reducida, la inspección normal, la inspección estricta y el no continuar la inspección.')
         figcaption.mt-4 Nota. Tomado de ICONTEC (2019). NTC-ISO 2859-1:2002.        
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -312,24 +313,31 @@
                 tr
               tbody.bgw
                 tr
-                  td(rowspan='4') <b>Defectos latentes</b> <br> Este tipo de defectos no se observa a simple vista en una revisión y se evidenciará en procesos posteriores de la tela o en el momento de la confección de la prenda.
-                  td
-                    | Teniendo en cuenta su uso final, las telas establecidas se clasifican en los siguientes grupos:
+                  td <b>Defectos latentes</b> <br> Este tipo de defectos no se observa a simple vista en una revisión y se evidenciará en procesos posteriores de la tela o en el momento de la confección de la prenda.
+                  td Teniendo en cuenta su uso final, las telas establecidas se clasifican en los siguientes grupos:<br><br>
+                    ul.lista-ul.mb-0.fa-ul
+                      li 
+                        i.lista-ul__vineta
+                        p.mb-0 Grupo I: Telas para vestuario.
+                      li 
+                        i.lista-ul__vineta
+                        p.mb-0 Grupo II: Telas decorativas y de hogar.
+                      li 
+                        i.lista-ul__vineta
+                        p.mb-0 Grupo III: Telas industriales.
                 tr
-                  td ●        Grupo I: Telas para vestuario.
-                tr
-                  td ●        Grupo II: Telas decorativas y de hogar.
-                tr
-                  td ●        Grupo III: Telas industriales.
-                tr
-                  td(rowspan='4') <b>Defectos patentes</b> <br> Este tipo de defectos se detectan rápidamente y se evidencian a simple vista.
-                  td Teniendo en cuenta los puntos de penalización se clasifican en los siguientes:
-                tr
-                  td ●        Grado A: Primeras.
-                tr
-                  td ●        Grado B: Segundas.
-                tr
-                  td ●        Grado C: Imperfectas.
+                  td <b>Defectos patentes</b> <br> Este tipo de defectos se detectan rápidamente y se evidencian a simple vista.
+                  td Teniendo en cuenta los puntos de penalización se clasifican en los siguientes:<br><br>
+                    ul.lista-ul.mb-0.fa-ul
+                      li 
+                        i.lista-ul__vineta
+                        p.mb-0 Grado A: Primeras.
+                      li 
+                        i.lista-ul__vineta
+                        p.mb-0 Grado B: Segundas.
+                      li 
+                        i.lista-ul__vineta
+                        p.mb-0 Grado C: Imperfectas.
 
       p(data-aos="fade-down").mb-5 A continuación, puede observar en la siguiente tabla, la clasificación de las distintas calidades de las telas que la norma trabaja, es decir, de tejido plano y de punto, de acuerdo con la clasificación vista en la tabla anterior.
 
@@ -390,8 +398,8 @@
       .row.justify-content-center.align-items-center.mb-5         
         .col-lg-10
           .titulo-sexto.color-acento-contenido.up
-            h5 Tabla 3.
-            span  Clasificación de calidades de las telas de tejido plano y de punto
+            h5 Tabla 4.
+            span  Ejemplo toma de muestras tejido plano y de punto
           .tabla-a     
             table.text-center
               caption Nota.Tomado de Icontec NTC 2567:1998. Pág. 4.
@@ -435,11 +443,8 @@
                   td
                   td (Véase la nota 2)  
 
-      p(data-aos="fade-down") En los requisitos generales de esta norma se establece que, en los tres grupos, ningún rollo puede presentar arrugas u ondulaciones que le impidan ubicarse en la mesa de corte. Igualmente, los Grupos I y II no son de grado A si existe una diferencia claramente visible en su tonalidad, cuando se observan bajo la luz del día. Así mismo, en los Grupos I y II, no se puede clasificar una pieza en Grado A, si difiere su tonalidad de punto a punta del rollo. Igualmente, la tonalidad permite identificar si existe un defecto al observar la gran diferencia de un color calificado visualmente (Icontec, 2019). Además, todos los rollos deben contener un sello para establecer el derecho y revés de la tela.
 
-      p(data-aos="fade-down") Por otro lado, para realizar una toma de muestras, se debe elegir un lote al azar, para este se debe tener en cuenta que se puede constituir por uno o más rollos y se debe tener en cuenta la mayor cifra resultante. Es de tener en cuenta que el despacho podría ser rechazado, si la toma elegida no cumple con los requisitos de clasificación que se establece en el sello.
-
-      p(data-aos="fade-down").mb-4 A continuación, observe un ejemplo de toma de muestras. 
+      p(data-aos="fade-down").mb-4 Para esta Norma Técnica, se trabaja con distintos tipos de muestras y se establecen cinco tipos de ensayo, los cuales son:
 
       .row.justify-content-center.align-items-center.mb-5           
         .col-lg-7
@@ -524,7 +529,7 @@
                       i.lista-ul__vineta
                       | Confección femenina   
           .col-lg-6.my-3
-            .bg9.p-3.h-100.j
+            .bg9.p-3.h-100.j1
               .row.justify-content-center.align-items-center          
                 .col-auto
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.svg', alt='')
@@ -589,7 +594,7 @@
                   h4(data-aos="fade-down") Ensayos NTC 703
                   p(data-aos="fade-down").mb-0 Conozca el proceso de desarrollo de los distintos ensayos de la NTC 703 de 2002, para determinar los requisitos generales de las telas de tejido plano y tejido de punto.
                 .col-sm-auto
-                  a.boton.color-primario(:href="obtenerLink('/downloads/Anexo_2_Ensayos_NTC_2567.pdf')" target="_blank")
+                  a.boton.color-primario(:href="obtenerLink('/downloads/Anexo_3_Ensayos_NTC_703.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download  
 
@@ -639,7 +644,7 @@
         .bg3.p-5.brad1.h-100.j
           p.mb-0 Permite una fácil guía en la implementación de reglas y normas.
 
-    h4.t1(data-aos="fade-down") Normas aplicadas a pruebas o métodos de ensayo en textiles ASTM
+    h4.t1(data-aos="fade-down").mt-5 Normas aplicadas a pruebas o métodos de ensayo en textiles ASTM
     p(data-aos="fade-down").mb-5 La clasificación de las normas se da exclusivamente a categorías asignadas por secciones y números, la ASTM establece la siguiente numeración para las secciones:
 
     .row.justify-content-end.align-items-center.mb-4           
@@ -656,7 +661,7 @@
         p.py-2(data-aos="fade-right").bgt2 #[b.t2.p-2 Sección 10 -] Aislamiento Eléctrico y electrónico                
         p.py-2(data-aos="fade-left").bgt2 #[b.t2.p-2 Sección 11 -] Agua y tecnología ambiental              
         p.py-2(data-aos="fade-right").bgt2 #[b.t2.p-2 Sección 12 -] Energía nuclear, solar y geotérmica 
-      .col-lg-5.my-3
+      .col-lg-5.my-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/60.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -728,7 +733,7 @@
       .col-lg-4.my-3(data-aos="fade-right")
         .bg18.p-4.brad1.h-100.j
           p.mb-0 #[b Grupos integrados del concepto al consumidor:] encargados en la creación de productos o artículos textiles vistos desde la idea hasta la creación de estos. 
-      .col-lg-4.my-3(data-aos="fade-left")
+      .col-lg-4.my-3.up(data-aos="fade-left")
         .bg18.p-4.brad1.h-100.j
           p.mb-0 #[b Grupos integrados de Materiales:] encargados del estudio de aproximadamente cuarenta y tres materiales textiles, estos van desde las fibras hasta los textiles que se desarrollan bajo fibras inteligentes, es decir, creadas por el hombre a partir de la combinación de elementos y tecnología. 
 
@@ -737,35 +742,35 @@
       p(data-aos="fade-down").mb-4 La AATCC también posee una sección para textiles, en cuanto a ensayos y pruebas en hilados, tejeduría y telas, entre otros procesos que también determinan por ejemplo solidez de color entre otros, entre sus categorías de normas están:
 
       .row.justify-content-center.text-center.mb-4
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/66.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 h4 Métodos de prueba 
                 p.mb-0 Desarrollan pruebas que a su vez son normas para; procedimientos de laboratorio, procedimientos de evaluación, monografías, actualizaciones y desarrollo de métodos.      
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/67.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 h4 Programas de pruebas de aptitud 
                 p.mb-0 Desarrollan pruebas que a su vez son normas para; evaluación de color, análisis de fibras, apariencia y propiedades físicas, resistencia y repelencia, antibacteriano, rapidez del color y control de humedad.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/68.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 h4 Calibración UV 
                 p.mb-0 Aborda la calibración de equipos especializados para la medición precisa del color y del color textil requeridos según estándares de calidad, como, por ejemplo, la calibración del espectrofotómetro.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/69.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 h4 Blanqueo 
                 p.mb-0 Desarrollan pruebas que a su vez son normas para el lavado en categorías como; fondo, lavadoras, secadoras, detergente y recursos.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/70.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100

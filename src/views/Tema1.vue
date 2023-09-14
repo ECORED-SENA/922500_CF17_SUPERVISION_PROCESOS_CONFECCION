@@ -44,7 +44,7 @@
             .p-4
               h4 Según el valor del producto 
               p.mb-0 Corresponde al equilibrio entre el costo de producción y el uso que se le da al producto. 
-    p(data-aos="fade-down") En términos generales, según Lockuán (2012), cuando se habla de calidad, se piensa en un producto confiable, que llena las expectativas en cuanto a funcionalidad y durabilidad.
+    p(data-aos="fade-down").mb-4 En términos generales, según Lockuán (2012), cuando se habla de calidad, se piensa en un producto confiable, que llena las expectativas en cuanto a funcionalidad y durabilidad.
     h4.t1(data-aos="fade-down") Tipos de calidad
     p(data-aos="fade-down").mb-5 En la industria textil es posible distinguir dos tipos de calidades (Lockuán, 2012): 
 
@@ -94,7 +94,7 @@
       .col-lg-3.my-3(data-aos="fade-right")
         .bg3.p-4.brad1.h-100
           h4 Calidad
-          p.mb-0 percibida Se refiere a aquellos aspectos que permiten visibilizar el producto y genera un status en el mercado. 
+          p.mb-0 Se refiere a aquellos aspectos que permiten visibilizar el producto y genera un status en el mercado. 
 
     h4.t1.mt-5(data-aos="fade-down") Control de calidad de telas
 
@@ -107,7 +107,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/7.png', alt='')  
 
     .row.justify-content-center.align-items-end.mb-4 
-      .col-lg-4.my-3 
+      .col-lg-4.my-3.d-none.d-lg-block 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')                 
       .col-lg-8.my-3
         p(data-aos="fade-down") Como es sabido que los materiales con que se confecciona una prenda afectan directamente su apariencia final, es como se debe aplicar un adecuado control de calidad en la etapa de preproducción textil aplicando pruebas establecidas, como la contracción en la tela, para analizar su resistencia, igualmente una prueba de lavado permite verificar la adhesión del color del material.
@@ -129,7 +129,7 @@
               tr
                 td.text-bold Prueba de calidad
                 td.text-bold Estándares aplicables     
-            tbody            
+            tbody.fst-italic            
               tr
                 td Color fastness to Light
                 td AATCC 16, Option 3
