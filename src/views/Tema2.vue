@@ -17,10 +17,10 @@
 
     .bg11.p-3.mb-5(data-aos="flip-down")
       .row.justify-content-center.align-items-center       
-        .col-auto
+        .col-lg-auto.my-2
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.svg', alt='')     
 
-        .col
+        .col.my-2
           p(data-aos="fade-down").mb-0 La Organización Internacional de Normalización ISO, tiene como función principal la construcción, elaboración y publicación de normas técnicas internacionales, contribuyendo así al desarrollo, producción y suministro de bienes y servicios, es decir, que no solo está dedicada a la industria textil, si no a un sin número de sectores que aportan a la economía mundial y que en ejercicios de importación y exportación de productos este resulta un estándar para medir la calidad de los mismos, proporcionando a los gobiernos de los diferentes países fundamento técnico que permitan la legislación en temas de salud, seguridad y el medio ambiente.
 
 

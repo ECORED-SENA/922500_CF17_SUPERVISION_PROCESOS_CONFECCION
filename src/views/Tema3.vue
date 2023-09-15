@@ -174,31 +174,31 @@
 
     .bg7.mb-5
       .row.justify-content-center.text-center.pt-3     
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/19.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Lupa con vidrio de aumento con base de centímetro cuadrado o pulgada al cuadrado.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/20.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Agujas largas.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/21.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Equipo de cuenta hilos.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/22.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
               .p-4
                 p.mb-0 Tijeras.
-        .col.my-2(data-aos="fade-left")
+        .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
           .tarjeta.tarjeta-avatar.h-100
             img.img-w(src='@/assets/curso/temas/23.svg' alt='AvatarTop')
             .tarjeta.bg8.ts.h-100
