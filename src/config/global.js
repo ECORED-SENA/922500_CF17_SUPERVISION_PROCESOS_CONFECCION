@@ -141,21 +141,24 @@ export default {
       referencia:
         'ASTM Internacional (s.f.) <i>ASTM D5034 Resistencia a la rotura /elongación . Método de agarre</i>.',
       tipo: 'PDF',
-      descarga: '/downloads/ANEXO_8_ASTM_D5034.pdf',
+      link:
+        'https://www.laboratuar.com/es/testler/astm-testleri/astm-d5034-tekstil-kumaslarin-kopma-mukavemeti-ve-uzamasi-icin-standart-test-yontemi/',
     },
     {
       tema: 'Otros métodos',
       referencia:
         'ASTM Internacional (s.f.) <i>ASTM D1424 Resistencia al desgarro ELMENDRORF</i>.',
       tipo: 'PDF',
-      descarga: '/downloads/ANEXO_9_ASTM_D1424.pdf',
+      link:
+        'https://www.laboratuar.com/es/testler/astm-testleri/astm-d1424-kumaslarin-dusen-sarkac-(elmendorf-tipi)-aparati-ile-yirtilma-dayanimi-icin-standart-test-yontemi/',
     },
     {
       tema: 'Otros métodos',
       referencia:
         'ASTM Internacional (s.f.) <i>ASTM D 2261 resistencia al desgarre de las telas mediante el procedimiento de una pernera, lengua</i>.',
       tipo: 'PDF',
-      descarga: '/downloads/ANEXO_10_ASTM_D2261.pdf',
+      link:
+        'https://www.laboratuar.com/es/testler/astm-testleri/astm-d2261-kumaslarin-dil-ile-yirtilma-mukavemeti-icin-standart-test/',
     },
     {
       tema: 'Otros métodos',
@@ -346,12 +349,14 @@ export default {
         {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experta temática',
-          centro: 'Centro Regional Antioquia',
+          centro:
+            'Centro Regional Antioquia - Centro de Formación Diseño, Confección y Moda',
         },
         {
           nombre: 'María Camila Álvarez Trujillo',
           cargo: 'Experta temática',
-          centro: 'Centro Regional Antioquia',
+          centro:
+            'Centro Regional Antioquia - Centro de Formación Diseño, Confección y Moda',
         },
         {
           nombre: 'Vilma Perilla Méndez',

@@ -117,7 +117,7 @@
         .bg4.p-4(data-aos="flip-down")           
           p(data-aos="fade-down").mb-0 Una vez se han aplicado las pruebas correspondientes con los equipos utilizados, ya sea para verificar su encogimiento, durabilidad, textura, resistencia del color, entre otros, los productos testeados deben contar con la debida información en etiqueta donde se especifique sus estándares, los cuales deben estar acordes a las normativas nacionales, industriales y del mercado dependiendo del tipo de producto. Es indispensable probar la calidad en cada uno de los insumos utilizados, puesto que están ahí para cumplir una función específica y lo que se espera es que el resultado garantice las especificaciones que promete y cumpla con las expectativas.
 
-    p(data-aos="fade-down").mb-5 A continuación, se especifican algunos estándares que se podrían encontrar en las especificaciones de calidad de un material textil, teniendo en cuenta las pruebas aplicadas.
+    p(data-aos="fade-down").mb-5 A continuación, se especifican algunos estándares que se podrían encontrar en las especificaciones de calidad de un material textil, teniendo en cuenta las pruebas aplicadas:
     .row.justify-content-center.align-items-center         
       .col-lg-8
         .titulo-sexto.color-acento-contenido.up

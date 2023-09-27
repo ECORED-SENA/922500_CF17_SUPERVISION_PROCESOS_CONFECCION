@@ -47,7 +47,7 @@
                   .list__txt
                     p.mb-0 Onza por yarda al cuadrado.
 
-        p(data-aos="fade-down") Este método de prueba mide la masa de las telas por una determinada unidad de área (peso), de igual manera también se aplica a todo tipo de textil o tejido con atributos especiales como recubrimientos o resinas, esto permite determinar el desempeño de una tela, suele realizarse de la siguiente manera: 
+        p(data-aos="fade-down") Este método de prueba mide la masa de las telas por una determinada unidad de área (peso), de igual manera también se aplica a todo tipo de textil o tejido con atributos especiales como recubrimientos o resinas, esto permite determinar el desempeño de una tela; suele realizarse de la siguiente manera: 
 
     .bg7.mb-5
       .row.justify-content-center.text-center.pt-3     
@@ -90,15 +90,15 @@
       .col-lg-4.my-3(data-aos="fade-left")
         .bg3.p-4.brad1.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')             
-          p.mb-0 ASTM D3776: Masa/superficie unitaria (peso) de la tela
+          p.mb-0 ASTM D3776: Masa/superficie unitaria (peso) de la tela.
       .col-lg-4.my-3(data-aos="fade-right")
         .bg3.p-4.brad1.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')             
-          p.mb-0 ISO 3801: Determinación de masa por unidad de longitud y masa por unidad de área en tejidos textiles
+          p.mb-0 ISO 3801: Determinación de masa por unidad de longitud y masa por unidad de área en tejidos textiles.
       .col-lg-4.my-3(data-aos="fade-left")
         .bg3.p-4.brad1.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')             
-          p.mb-0 ASTM D1909: Determinación de humedad relativa 
+          p.mb-0 ASTM D1909: Determinación de humedad relativa. 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -269,11 +269,11 @@
       .col-lg-6.my-3(data-aos="fade-left")
         .bg3.p-4.brad1.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')             
-          h5.mb-0 ASTM D3774: Método de prueba estándar para el ancho de la tela
+          h5.mb-0 ASTM D3774: Método de prueba estándar para el ancho de la tela.
       .col-lg-6.my-3(data-aos="fade-right")
         .bg3.p-4.brad1.h-100
           img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/17.svg', alt='')             
-          h5.mb-0 ISO 3992: Medida de ancho de piezas de tejidos textiles
+          h5.mb-0 ISO 3992: Medida de ancho de piezas de tejidos textiles.
 
 
     .row.justify-content-center.align-items-center        

@@ -41,7 +41,7 @@
 
         p(data-aos="fade-down") El guiarse por estas normas contiene ventajas pues al estar al alcance de todos y contener estándares mínimos en procesos, permite entrar en un comercio mucho más global, propiciando la exportación, también implica tener la confianza en que detrás de la elaboración de las normas, están tanto expertos como actores propios de las empresas del sector.
 
-        p(data-aos="fade-down") Continuando con la Norma ISO/IEC 17025, esta establece estándares de calidad en los laboratorios de ensayo en dos aspectos:
+        p(data-aos="fade-down") Continuando con la Norma ISO/IEC 17025, esta establece estándares de calidad en los laboratorios de ensayo, en dos aspectos:
                 
     .bg14
       .row.justify-content-center.mb-3         
@@ -136,7 +136,7 @@
           img.img-w5(src='@/assets/curso/temas/36.png' alt='AvatarTop')
           .tarjeta.bg1.ts.h-100
             .p-4
-              p.mb-0 Instituto Colombiano de Normas Técnicas, en sus siglas conocido como ICONTEC, de aquí se originan las normas para el sector textil conocidas como las NTC (Normas Técnicas Colombianas) 
+              p.mb-0 Instituto Colombiano de Normas Técnicas, en sus siglas conocido como ICONTEC, de aquí se originan las normas para el sector textil conocidas como las NTC (Normas Técnicas Colombianas). 
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -225,7 +225,7 @@
         .row.justify-content-center.mt-3
           .col-lg-11.mb-4.mb-md-0.my-3
             h4 Plan de muestreo según la calidad limite (CL)
-            img.img-a.img-t(src='@/assets/curso/temas/42.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/42.svg', alt='')
             figcaption.mt-3 Nota. Tomado de NTC-ISO 2859-2:1994.    
         .row.justify-content-center.mt-3
           .col-lg-6.mb-4.mb-md-0.my-3
@@ -237,7 +237,7 @@
         .row.justify-content-center.mt-3
           .col-lg-11.mb-4.mb-md-0.my-3
             h4 Plan de muestreo para una calidad límite de 0,5%
-            img.img-a.img-t(src='@/assets/curso/temas/44.png', alt='')
+            img.img-a.img-t(src='@/assets/curso/temas/44.svg', alt='')
             figcaption.mt-3 Nota. Tomado de NTC-ISO 2859-2:1994.     
         .row.justify-content-center.mt-3
           .col-lg-6.mb-4.mb-md-0.my-3
@@ -259,7 +259,7 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/a4SXlYhBZyY?si=Dl8pfNu2zhIVl3uB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
           figcaption Video. Tipos de inspección  
-    p(data-aos="fade-down").mb-5 En la siguiente figura se ilustra de una manera clara, el proceso de cambio de inspección, siempre que se cumplan las condiciones requeridas, según se explicó anteriormente.
+    p(data-aos="fade-down").mb-5 En la siguiente figura se ilustra de una manera clara, el proceso de cambio de inspección, siempre que se cumplan las condiciones requeridas, según se explicó anteriormente:
 
     .row.justify-content-center.align-items-center.mb-5         
       .col-lg-10.d-none.d-lg-block
@@ -283,10 +283,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4(data-aos="fade-down") Planes de Muestreo NTC2859-1
+                  h4(data-aos="fade-down") Planes de Muestreo NTC 2859-1
                   p(data-aos="fade-down").mb-0 Lo invitamos a ampliar el tema de planes de muestreo para aplicar según esta norma, en el siguiente documento.
                 .col-sm-auto
-                  a.boton.color-primario(:href="obtenerLink('/downloads/Anexo_1_Planes_de_muestreo_NTC_2859.pdf')" target="_blank")
+                  a.boton.color-primario(:href="obtenerLink('/downloads/Anexo_1_Planes_de_muestreo_NTC_2859-1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download 
 
@@ -294,10 +294,11 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 NTC 2567:1998 NTC1046                                   
     p(data-aos="fade-down") La Norma Técnica Colombiana 1046 o NTC 1046 no se encuentra vigente, por lo que la reemplaza la Norma Técnica Colombiana 2567 o NTC-ISO 2567 y corresponde al año 1998 al denominarse Textiles, Telas de Tejido Plano y de Tejido de Punto. Clasificación por Defectos. De esta forma, tal como su nombre lo indica, tiene como objetivo clasificar los defectos o fallas encontradas específicamente en las telas de tejido plano y tejido de punto, ya sean crudas y acabadas (ICONTEC, 2019). Por lo tanto, no se aplica a otros tipos de tejidos, como los especiales, de rizo, de filamento continuo, etc.
-
-    p(data-aos="fade-down").mb-3 Esta norma posee la siguiente clasificación, según defectos y uso final:
+    .row 
+      .col-12.up.mb-3
+        p(data-aos="fade-down").mb-5 Esta norma posee la siguiente clasificación, según defectos y uso final:
     .bg17
-      .row.justify-content-center.align-items-center.py-5         
+      .row.justify-content-center.align-items-center.pb-5         
         .col-lg-10
           .titulo-sexto.color-acento-contenido.up
             h5 Tabla 2.
@@ -415,10 +416,10 @@
                   td
                 tr
                   td 1000 o menos
-                  td 100%
+                  td 100 %
                 tr
                   td Más de 1000
-                  td 10% o 1000 m<sup>2</sup>
+                  td 10 % o 1000 m<sup>2</sup>
                 tr
                   td
                   td (Véase la nota 2)
@@ -435,10 +436,10 @@
                   td
                 tr
                   td 500 o menos
-                  td 30%
+                  td 30 %
                 tr
                   td Más de 500
-                  td 10% o 500 m2
+                  td 10 % o 500 m2
                 tr
                   td
                   td (Véase la nota 2)  
@@ -511,7 +512,7 @@
 
         p(data-aos="fade-down") De esta forma, se abarcan los requisitos generales para los tejidos de punto y tejidos planos. Por consiguiente, en la norma se aclara que las precauciones de seguridad que se establecen en el documento, solo recaen sobre los ensayos, puesto que, si existen problemas de seguridad con relación al uso de las telas, es total responsabilidad de la persona que las manipula teniendo en cuenta los parámetros de seguridad y salud.
 
-        p(data-aos="fade-down") En cuanto a los requisitos generales establecidos en la NTC 703-1:2001 de las telas de tejido plano y telas de tejido de punto se determina la siguiente clasificación: 
+        p(data-aos="fade-down") En cuanto a los requisitos generales establecidos en la NTC 703-1:2001 de las telas de tejido plano y telas de tejido de punto, se determina la siguiente clasificación: 
 
         .row.justify-content-center
           .col-lg-6.my-3
@@ -645,7 +646,7 @@
           p.mb-0 Permite una fácil guía en la implementación de reglas y normas.
 
     h4.t1(data-aos="fade-down").mt-5 Normas aplicadas a pruebas o métodos de ensayo en textiles ASTM
-    p(data-aos="fade-down").mb-5 La clasificación de las normas se da exclusivamente a categorías asignadas por secciones y números, la ASTM establece la siguiente numeración para las secciones:
+    p(data-aos="fade-down").mb-5 La clasificación de las normas se da exclusivamente a categorías asignadas por secciones y números; la ASTM establece la siguiente numeración para las secciones:
 
     .row.justify-content-end.align-items-center.mb-4           
       .col-lg-6.my-3
@@ -680,7 +681,7 @@
                     span Descargar
                     i.fas.fa-file-download   
 
-    p(data-aos="fade-down").mb-5 La sección que abordaremos será la 07, haciendo la diferencia que las normas también se aplican según los hilados, la tejeduría y las telas, se hará hincapié en los textiles según su tejeduría y las pruebas más relevantes que son aplicadas en el sector textil.
+    p(data-aos="fade-down").mb-5 La sección que abordaremos será la 07, haciendo la diferencia que las normas también se aplican según los hilados, la tejeduría y las telas; se hará hincapié en los textiles según su tejeduría y las pruebas más relevantes que son aplicadas en el sector textil.
 
     Separador 
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -729,7 +730,7 @@
     .row.justify-content-center.text-center.mb-4
       .col-lg-4.my-3(data-aos="fade-left")
         .bg18.p-4.brad1.h-100.j
-          p.mb-0 #[b Grupos integrados para aplicaciones químicas:] encargados de expandir el conocimiento de sus miembros expertos o técnicos a través de la aplicación de químicos a sustratos textiles
+          p.mb-0 #[b Grupos integrados para aplicaciones químicas:] encargados de expandir el conocimiento de sus miembros expertos o técnicos a través de la aplicación de químicos a sustratos textiles.
       .col-lg-4.my-3(data-aos="fade-right")
         .bg18.p-4.brad1.h-100.j
           p.mb-0 #[b Grupos integrados del concepto al consumidor:] encargados en la creación de productos o artículos textiles vistos desde la idea hasta la creación de estos. 
@@ -739,7 +740,7 @@
 
     .bg19.pt-5
       h4.t1(data-aos="fade-down") Normas aplicadas a pruebas o métodos de ensayo en textiles AATCC
-      p(data-aos="fade-down").mb-4 La AATCC también posee una sección para textiles, en cuanto a ensayos y pruebas en hilados, tejeduría y telas, entre otros procesos que también determinan por ejemplo solidez de color entre otros, entre sus categorías de normas están:
+      p(data-aos="fade-down").mb-4 La AATCC también posee una sección para textiles, en cuanto a ensayos y pruebas en hilados, tejeduría y telas, entre otros procesos que también determinan por ejemplo solidez de color entre otros; entre sus categorías de normas están:
 
       .row.justify-content-center.text-center.mb-4
         .col-lg.col-md-6.col-sm-12.my-2(data-aos="fade-left")
@@ -794,7 +795,7 @@
                       span Descargar
                       i.fas.fa-file-download 
 
-    p(data-aos="fade-down").mb-5 A continuación, se muestran las normas más implementadas dentro del sector textil de las AATCC
+    p(data-aos="fade-down").mb-5 A continuación, se muestran las normas más implementadas dentro del sector textil de las AATCC:
 
     .row.justify-content-center.align-items-center         
       .col-lg-10
@@ -872,7 +873,7 @@
                 td Método de prueba de aspecto de las telas después de repetidos lavados domésticos.  
               tr
                 td.text-bold.w-70 AATCC 143-2011                 
-                td Método de prueba de la apariencia de prendas de vestir y otros productos textiles después de repetidos lavados domésticos. 23                
+                td Método de prueba de la apariencia de prendas de vestir y otros productos textiles después de repetidos lavados domésticos.               
 </template>
 
 <script>
