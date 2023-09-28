@@ -269,22 +269,20 @@ export default {
     {
       referencia: 'Icontec. (2019). NTC 2567:1998.',
       link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=178',
+        'https://www.colombiaaprende.edu.co/sites/default/files/files_public/2021-12/caracterizacion-sector-moda.pdf',
     },
     {
       referencia: 'Icontec. (2021). NTC 703:2001.',
-      link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=5699',
+      link: 'https://docplayer.es/54052842-Norma-tecnica-colombiana-703-1.html',
     },
     {
       referencia: 'Icontec (2002) NTC-ISO 2859-1:2002.',
       link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6224',
+        'https://dokumen.tips/documents/ntc-iso-2859-1-2002-muestreo-para-inspeccion-por-atributospdf.html',
     },
     {
       referencia: 'Icontec. (2021). NTC-ISO 2859-3:2014.',
-      link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6227',
+      link: 'https://es.scribd.com/document/342550191/NTC-2859-3-pdf',
     },
     {
       referencia:

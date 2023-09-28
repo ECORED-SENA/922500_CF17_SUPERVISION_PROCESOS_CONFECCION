@@ -163,7 +163,7 @@
                   h4(data-aos="fade-down") Sistema Nacional de Bibliotecas Sena
                   p(data-aos="fade-down").mb-0 Para consultar las Normas Técnicas Colombianas o NTC que se requiera, puede ingresar directamente en la base de datos de ICONTEC que hace parte del Servicio de Bibliotecas SENA. Sistema Nacional de Bibliotecas Sena, busque la base de datos de ICONTEC e introduzca el número de la norma que desea consultar.
                 .col-sm-auto
-                  a.boton.color-primario(href="https://e-collection-icontec-org.bdigital.sena.edu.co/colecao.aspx" target="_blank")
+                  a.boton.color-primario(href="https://tienda.icontec.org/sectores.html" target="_blank")
                     span Ver enlace
                     i.fas.fa-external-link-alt  
 
